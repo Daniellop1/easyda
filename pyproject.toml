@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easyda"
+version = "0.1.0"
+authors = [
+    {name = "Daniel López Pérez", email = "dlopez350@icloud.com"},
+]
+description = "A simplified data analysis library combining pandas, matplotlib, and scikit-learn"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas>=1.0.0",
+    "matplotlib>=3.0.0",
+    "scikit-learn>=0.24.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/daniellop1/easyda"
+"Bug Tracker" = "https://github.com/daniellop1/easyda/issues"

@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: easyda
+Version: 0.1.0
+Summary: A simplified data analysis library combining pandas, matplotlib, and scikit-learn
+Author-email: Daniel López Pérez <dlopez350@icloud.com>
+Project-URL: Homepage, https://github.com/daniellop1/easyda
+Project-URL: Bug Tracker, https://github.com/daniellop1/easyda/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: matplotlib>=3.0.0
+Requires-Dist: scikit-learn>=0.24.0
+
+# EasyDa: Simplified Data Analysis Library
+
+EasyDa is a Python library that simplifies data analysis by combining the most common functionalities of pandas, matplotlib, and scikit-learn with a simplified interface for quick analysis.
